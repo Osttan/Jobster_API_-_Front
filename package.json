@@ -1,0 +1,37 @@
+{
+  "name": "nodejs-tutorial-and-projects-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./Section_3_Node_Tutorial/1-Intro.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "dev": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Osttan/NodeJS_Tutorial_and_Projects_Course.git"
+  },
+  "author": "Andre Ostan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Osttan/NodeJS_Tutorial_and_Projects_Course/issues"
+  },
+  "homepage": "https://github.com/Osttan/NodeJS_Tutorial_and_Projects_Course#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "express-rate-limit": "^6.7.0",
+    "helmet": "^6.0.0",
+    "http-status-codes": "^2.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.7.2",
+    "xss-clean": "^0.1.1"
+  }
+}
